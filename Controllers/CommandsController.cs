@@ -11,7 +11,7 @@ namespace Commander.Controllers
     private readonly ICommanderRepository repository;
     public CommandsController(ICommanderRepository repository)
     {
-       this.repository = repository;
+      this.repository = repository;
     }
 
     // GET api/commands
