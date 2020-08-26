@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ONGOING\\Commander\\Commander.csproj": {}
+    "E:\\ONGOING\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "D:\\ONGOING\\Commander\\Commander.csproj": {
+    "E:\\ONGOING\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ONGOING\\Commander\\Commander.csproj",
+        "projectUniqueName": "E:\\ONGOING\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "D:\\ONGOING\\Commander\\Commander.csproj",
+        "projectPath": "E:\\ONGOING\\Commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\saileshbro\\.nuget\\packages\\",
-        "outputPath": "D:\\ONGOING\\Commander\\obj\\",
+        "outputPath": "E:\\ONGOING\\Commander\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -42,6 +42,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.7, )"
